@@ -1,0 +1,32 @@
+.faq-item {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.75rem;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eaecf3;
+  margin: 1.25rem 1.75rem;
+}
+
+.faq-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.faq-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.75rem;
+  color: #718096;
+}
+
+.collapse {
+  display: none;
+}
